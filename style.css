@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, "Times New Roman       ";
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    padding-left: 150px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 45, 106);
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex; 
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 270px;
+    color: white;
+
+}
+
+.intro {
+    display: flex;
+    align-items: baseline;
+    
+    
+}
+
+.image{
+    height: 200px;
+    width: 500px;
+    background-color: grey;
+    text-align: center;
+    margin-left: 125px;
+    
+}
+
+.text{
+    margin: 60px 0;
+    margin-top: 30px;
+    margin-right: 40px;
+    padding-left: 150px;
+    width: 400px;
+
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, .8);
+    margin: 10px 0;
+}
+
+button{
+    width: 80px;
+    height: 40;
+    border-radius: 4px;
+    background-color: rgb(56, 102, 209);
+    color: white;
+}
+
+p.description{ 
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    opacity: .8;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.border{
+    min-width: 100px;
+    min-height: 100px;
+    border: 3px solid rgb(16, 133, 176);
+    border-radius: 5%;
+}
+
+.poster{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0;
+}
+
+.inspiration{
+    height: 250px;    
+    background-color: rgb(92, 83, 83);
+    
+}
+
+p.qoute{
+    color: black;
+    font-size: 32px;
+    padding: 50px 375px;
+    
+}
+
+p.author{
+    font-weight: bold;
+    color: black;
+    text-align: end;
+    margin-right: 400px;
+    margin-top: -60px;
+}
+
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 71, 161);
+    width: 50%;
+    margin: 30px 25%;
+    gap: 10px;
+}
+
+p.bottom{
+    color: white;
+    font-weight: bold;
+
+}
+
+#sign{
+    height: 70%;
+    border: 1px solid white;
+}
+
+.footer{
+    background-color: rgb(39, 38, 38);
+}
